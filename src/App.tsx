@@ -1,5 +1,10 @@
+import Message from "./Message";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Message />
+    </div>
+  );
 }
 
 export default App;
